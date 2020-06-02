@@ -23,7 +23,7 @@ the library licensing follows the ***logic*** of the Microsoft Visual Studio 201
 ### commercial license
 **any entitiy that does not qualify for a free license is required to obtain a commercial license**.
 
-* any entity that requires a commecial license is should contact the admin of the repo;
+* any entity that requires a commecial license, should contact the admin of the repo;
 * the annual license-fee is calculated as follows **( int ) ( 1.5 ^ -5 * last reported consolidated 12-month-net-turnover )**, hereafter 'the fee';
 * the fee is capped at €100'000;
 * the fee is due in €;
