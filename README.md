@@ -1,4 +1,4 @@
-# never-null-mutex
+# non-zero-mutex
 a mutex with non-zero default-, and implicit uninitialized-state, hereafter 'the idea'. i herewith consider the idea public and attributable to degski, the administrator, hereafter 'the admin', of https://github.com/degski/never-null-mutex , hereafter 'the repo'. the idea is particularly useful in *lockless* data structure designs.
 
 
