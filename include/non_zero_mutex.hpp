@@ -93,7 +93,7 @@ struct non_zero_mutex {
 template<typename FlagType = char>
 struct non_zero_mutex final : public detail::non_zero_mutex<FlagType> {};
 
-struct alignas ( 64 ) cache_aligned_never_null_mutex final : public detail::non_zero_mutex<std::uintptr_t> {};
+struct alignas ( 64 ) cache_aligned_non_zero_mutex final : public detail::non_zero_mutex<std::uintptr_t> {};
 
 } // namespace sax
 

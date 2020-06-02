@@ -12,6 +12,6 @@
 
 int main ( ) {
     sax::never_null_mutex<char> m;
-    sax::cache_aligned_never_null_mutex cam;
+    sax::cache_aligned_non_zero_mutex cam;
     return EXIT_SUCCESS;
 }
