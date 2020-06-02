@@ -21,11 +21,10 @@ the library licensing follows the ***logic*** of the Microsoft Visual Studio 201
 ### commercial license
 **any entitiy that does not qualify for a free license is required to obtain a commercial license**
 
-the annual license fee is calculated as follows **( int ) ( 1.5 ^ -5 * last reported consolidated 12-month-net-turnover )**
-
-the annual license-fee is capped at €100'000.
-
-an implicit annual waiver is issued iff the annual license fee does not surpass €100 (or its local currency equivalent at reporting time), the license-fee is due in Euro (and *can* be rounded to the nearest Euro).
+* the annual license-fee is calculated as follows **( int ) ( 1.5 ^ -5 * last reported consolidated 12-month-net-turnover )**
+* the annual license-fee is capped at €100'000.
+* the license-fee is due in €.
+* an implicit annual waiver is issued in case the annual license-fee does not surpass €100.
 
 
 ## contact
