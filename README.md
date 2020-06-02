@@ -22,13 +22,13 @@ the library licensing follows the ***logic*** of the Microsoft Visual Studio 201
 **any entitiy that does not qualify for a free license is required to obtain a commercial license**.
 
 * any entity that requires a commecial license, should contact the admin of the repo;
-* the basis of the license-fee is last year's reported consolidated 12-month net turnover, everywhere 'the turnover';
+* the basis of the license-fee is last year's reported consolidated 12-month net turnover, hereafter 'the turnover';
 * the annual license-fee, hereafter 'the fee', is calculated as **€0.015 of fee / €1'000.00 of turnover**;
 * the fee is capped at €100'000;
 * the fee is due in €;
 * an implicit waiver is issued in case the annual fee does not surpass €100;
 * the licensing scheme can not be modified;
-* the commercial license will lapse to a free license after 20 years.
+* the commercial license will lapse to a free license after 20 years after publication of the repo.
 
 ### other license
 **send a proposal**.
