@@ -17,7 +17,7 @@ the library licensing follows the ***logic*** of the Microsoft Visual Studio 201
 
 
 ### free license
-**i herewith grant any entity that** ***qualifies*** **for a free Microsoft Visual Studio 2019 Community Edition License, the right to freely use this library subject to the [MIT License](https://choosealicense.com/licenses/mit/).**
+**i herewith grant any entity that** ***qualifies*** **for a free Microsoft Visual Studio 2019 Community Edition License, the right to freely use this library subject to the [MIT License](https://choosealicense.com/licenses/mit/)**.
 
 
 ### commercial license
@@ -33,7 +33,7 @@ the library licensing follows the ***logic*** of the Microsoft Visual Studio 201
 * the commercial license will lapse to a free license after 20 years.
 
 ### other license
-**send a proposal.**
+**send a proposal**.
 
 
 ## contact
