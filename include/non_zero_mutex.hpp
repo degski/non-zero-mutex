@@ -36,7 +36,7 @@ NON_ZERO_MUTEX_ALWAYS_INLINE void yield ( ) noexcept {
 #endif
 }
 
-template<typename FlagType, typename = std::enable_if_t<std::is_scalar<FlagType>::value>>
+template<typename FlagType, typename = std::enable_if_t<std::is_integral<FlagType>::value>>
 struct never_null_mutex {
 
     using value_type = FlagType;
