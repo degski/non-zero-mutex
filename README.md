@@ -13,23 +13,24 @@ an ***example*** of an implementation of the idea, `never_null_mutex<FlagType>` 
 
 
 ## licensing
-the library licensing follows the ***logic*** of the Microsoft Visual Studio 2019 licensing Scheme. the library is licensed under a dual licensing scheme.
+the library licensing follows the ***logic*** of the Microsoft Visual Studio 2019 licensing Scheme. the library is licensed under a fixed dual licensing scheme.
 
 
 ### free license
-**i herewith grant any entity that** ***qualifies*** **(as a pre-condition) for a free Microsoft Visual Studio 2019 Community Edition License, the right to freely use this library subject to the [MIT License](https://choosealicense.com/licenses/mit/).**
+**i herewith grant any entity that** ***qualifies*** **for a free Microsoft Visual Studio 2019 Community Edition License, the right to freely use this library subject to the [MIT License](https://choosealicense.com/licenses/mit/).**
 
 
 ### commercial license
 **any entitiy that does not qualify for a free license is required to obtain a commercial license**.
 
 * any entity that requires a commecial license, should contact the admin of the repo;
-* the annual license-fee is calculated as follows **( int ) ( 1.5 ^ -5 * last reported consolidated 12-month-net-turnover )**, hereafter 'the fee';
+* the fee is based on last year's reported consolidated 12-month net turnover, hereafter 'the turnover';
+* the annual license-fee is calculated as **€0.015 of fee/€1'000.00 of turnover**, hereafter 'the fee';
 * the fee is capped at €100'000;
 * the fee is due in €;
-* an implicit waiver is issued anually in case the annual fee does not surpass €100;
-* the licensing scheme can not be modified.
-
+* an implicit waiver is issued in case the annual fee does not surpass €100;
+* the licensing scheme can not be modified;
+* the license will lapse to a free license after 20 years.
 
 ### other license
 **send a proposal.**
