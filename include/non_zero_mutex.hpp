@@ -37,17 +37,17 @@ NON_ZERO_MUTEX_ALWAYS_INLINE void yield ( ) noexcept {
 }
 
 template<typename FlagType, typename = std::enable_if_t<std::is_integral<FlagType>::value>>
-struct never_null_mutex {
+struct non_zero_mutex {
 
     using value_type = FlagType;
 
-    never_null_mutex ( ) noexcept                 = default;
-    never_null_mutex ( never_null_mutex const & ) = delete;
-    never_null_mutex ( never_null_mutex && )      = delete;
-    ~never_null_mutex ( )                         = default;
+    non_zero_mutex ( ) noexcept                 = default;
+    non_zero_mutex ( non_zero_mutex const & ) = delete;
+    non_zero_mutex ( non_zero_mutex && )      = delete;
+    ~non_zero_mutex ( )                         = default;
 
-    never_null_mutex & operator= ( never_null_mutex const & ) = delete;
-    never_null_mutex & operator= ( never_null_mutex && ) = delete;
+    non_zero_mutex & operator= ( non_zero_mutex const & ) = delete;
+    non_zero_mutex & operator= ( non_zero_mutex && ) = delete;
 
     static constexpr FlagType uninitialized               = 0;
     static constexpr FlagType unlocked                    = 1;
@@ -91,9 +91,9 @@ struct never_null_mutex {
 } // namespace detail
 
 template<typename FlagType = char>
-struct never_null_mutex final : public detail::never_null_mutex<FlagType> {};
+struct non_zero_mutex final : public detail::non_zero_mutex<FlagType> {};
 
-struct alignas ( 64 ) cache_aligned_never_null_mutex final : public detail::never_null_mutex<std::uintptr_t> {};
+struct alignas ( 64 ) cache_aligned_never_null_mutex final : public detail::non_zero_mutex<std::uintptr_t> {};
 
 } // namespace sax
 
