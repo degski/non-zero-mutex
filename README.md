@@ -1,7 +1,5 @@
 # never-null-mutex
-a mutex with non-zero default-, and implicit uninitialized-state, hereafter 'the idea'. i herewith consider the idea public and attributable to degski,
-
-the administrator, hereafter 'the admin', of https://github.com/degski/never-null-mutex , hereafter 'the repo'. the idea is particularly useful in *lockless* data structure designs.
+a mutex with non-zero default-, and implicit uninitialized-state, hereafter 'the idea'. i herewith consider the idea public and attributable to degski, the administrator, hereafter 'the admin', of https://github.com/degski/never-null-mutex , hereafter 'the repo'. the idea is particularly useful in *lockless* data structure designs.
 
 
 ## description
@@ -11,7 +9,7 @@ due to its unlocked state being non-zero*, defining a ***a non-zero mutex*** as 
 
 
 ## implementation
-an ***example*** of an implementation of the idea, `never_null_mutex<FlagType>` (a test-test-and-swap read-write spinlock), is implemented and included in the repo, hereafter 'the library'.
+an ***example*** implementation of the idea, a test-test-and-swap read-write spinlock, is implemented and [included in the repo](https://github.com/degski/non-zero-mutex/blob/3d93e754d13a58321ffd2ac90d638515b5696b86/include/non_zero_mutex.hpp#L39), hereafter 'the library'.
 
 
 ## licensing
