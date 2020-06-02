@@ -1,5 +1,5 @@
 # never-null-mutex
-a mutex with non-zero default-, and implicit uninitialized-state, hereafter 'the idea'. i herewith consider the idea public and attributable to degski, the administrator of https://github.com/degski/never-null-mutex , hereafter 'the repo'. the idea is particularly useful in *lockless* data structure designs.
+a mutex with non-zero default-, and implicit uninitialized-state, hereafter 'the idea'. i herewith consider the idea public and attributable to degski, the administrator of https://github.com/degski/never-null-mutex  hereafter 'the admin', hereafter 'the repo'. the idea is particularly useful in *lockless* data structure designs.
 
 
 ## description
@@ -23,6 +23,7 @@ the library licensing follows the ***logic*** of the Microsoft Visual Studio 201
 ### commercial license
 **any entitiy that does not qualify for a free license is required to obtain a commercial license**.
 
+* any entity that requires a commecial license is should contact the admin of the repo;
 * the annual license-fee is calculated as follows **( int ) ( 1.5 ^ -5 * last reported consolidated 12-month-net-turnover )**, hereafter 'the fee';
 * the fee is capped at €100'000;
 * the fee is due in €;
